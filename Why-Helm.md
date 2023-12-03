@@ -1,9 +1,9 @@
 # Kubernetes problem solved by Helm
 
 ## PROBLEMS
-- Kubernetes resources are created using kubectl
-- kubectl uses manifest files called YAML files
-- these YAML files have to be manually created or edited
+- Kubernetes resources are created using `kubectl`
+- `kubectl` uses manifest files called YAML files
+- These YAML files have to be manually created or edited
 - This creates problems in deployment to Production
 - Every env need different value which can lead to manual changes and hence mistakes
 - There can be many resources which need changes like deployment, configmap, service etc..
